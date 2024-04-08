@@ -1,0 +1,17 @@
+D:\sisya\LabKozl\obj\Debug\net6.0\LabKozl.csproj.AssemblyReference.cache
+D:\sisya\LabKozl\obj\Debug\net6.0\LabKozl.GeneratedMSBuildEditorConfig.editorconfig
+D:\sisya\LabKozl\obj\Debug\net6.0\LabKozl.AssemblyInfoInputs.cache
+D:\sisya\LabKozl\obj\Debug\net6.0\LabKozl.AssemblyInfo.cs
+D:\sisya\LabKozl\obj\Debug\net6.0\LabKozl.csproj.CoreCompileInputs.cache
+D:\sisya\LabKozl\bin\Debug\net6.0\LabKozl.exe
+D:\sisya\LabKozl\bin\Debug\net6.0\LabKozl.deps.json
+D:\sisya\LabKozl\bin\Debug\net6.0\LabKozl.runtimeconfig.json
+D:\sisya\LabKozl\bin\Debug\net6.0\LabKozl.dll
+D:\sisya\LabKozl\bin\Debug\net6.0\LabKozl.pdb
+D:\sisya\LabKozl\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\sisya\LabKozl\obj\Debug\net6.0\LabKozl.csproj.CopyComplete
+D:\sisya\LabKozl\obj\Debug\net6.0\LabKozl.dll
+D:\sisya\LabKozl\obj\Debug\net6.0\refint\LabKozl.dll
+D:\sisya\LabKozl\obj\Debug\net6.0\LabKozl.pdb
+D:\sisya\LabKozl\obj\Debug\net6.0\LabKozl.genruntimeconfig.cache
+D:\sisya\LabKozl\obj\Debug\net6.0\ref\LabKozl.dll
