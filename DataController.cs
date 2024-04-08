@@ -145,7 +145,7 @@ public class DataController
     #region Terminal
     public void ShowMainMenu()
     {
-        Console.WriteLine("1. Show Data\n2.Add DTP\n3. Delete DTP\n4. Exit");
+        Console.WriteLine("1. Show Data\n2. Add DTP\n3. Delete DTP\n4. Exit");
         string option = Console.ReadLine();
         if (option != string.Empty) GetMethodByOption(option);
     }
@@ -157,9 +157,17 @@ public class DataController
             case "1": DisplayData(); break;
             case "2": AddDTP(); break; 
             case "3": DeleteDTP(); break;
-            case "4": SaveData(); break;
+            case "4":
+                SaveData();
+                ExitProgram();
+                break;
             default: Console.WriteLine("Invalid Option"); break;
         }
+    }
+    private void ExitProgram()
+    {
+        Console.WriteLine("Exiting the program...");
+        Environment.Exit(0);
     }
 
     private void DisplayData()
@@ -234,7 +242,7 @@ public class DataController
             
             foreach (var dtp in GetInstance().GetDTPs())
             {
-                Console.WriteLine($"Id: {dtp.Id}\nDTP cause: {dtp.DTPCause}\nDTP date: {dtp.DateDTP}");
+                Console.WriteLine($"Id: {dtp.Id}\tDTP cause: {dtp.DTPCause}\tDTP date: {dtp.DateDTP}");
             }
 
             
