@@ -15,6 +15,10 @@ namespace LabKozl
         public string BodyType { get; set; }
         public string LicensePlates { get; set; }
         public string Owner { get; set; }
+        public override string ToString()
+        {
+            return $"{Id}";
+        }
     }
     public class Department
     {
@@ -28,6 +32,11 @@ namespace LabKozl
         public string FullName { get; set; }
         public uint Exp { get; set; }
         public string Certificate { get; set; }
+        public override string ToString()
+        {
+            return $"{Id}";
+        }
+
     }
     public class DTP
     {
@@ -37,6 +46,10 @@ namespace LabKozl
         public uint СasualtyRate { get; set; }
         public ulong ActNumber { get; set; }
         public string DTPCause { get; set; }
+        public override string ToString()
+        {
+            return $"{Id}";
+        }
     }
     public class Member
     {

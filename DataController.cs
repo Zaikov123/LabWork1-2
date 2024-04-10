@@ -192,6 +192,11 @@ public class DataController
         {
             Console.WriteLine($"Id: {item.Id}\tDTP cause: {item.DTPCause}\tDTP date: {item.DateDTP}");
         }
+        Console.WriteLine("Members:");
+        foreach (var item in _members)
+        {
+            Console.WriteLine($"DTP Id: {item.DTPId}\tDriver Id: {item.DriverId}\tCar Id: {item.CarId}");
+        }
     }
     private void AddDTP()
     {
